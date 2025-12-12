@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CNN Classifier (ONNX.js)</title>
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+  <style>
+    body { font-family: Arial; text-align:center; padding:50px; }
+    input, button { margin:10px; }
+    img { max-width:300px; margin-top:20px; }
+  </style>
+</head>
+<body>
+  <h1>CNN Classifier</h1>
+  <p>Select an image to predict its class</p>
+  <input type="file" id="imgInput" accept="image/*">
+  <button onclick="predict()">Predict</button>
+  <h2 id="result"></h2>
+  <img id="preview" src="">
+
+  <script src="app.js"></script>
+</body>
+</html>
