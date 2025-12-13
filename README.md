@@ -72,9 +72,7 @@ Training was done in Google Colab with GPU support.
 
 •	Confusion Matrix
 
-•	Loss vs. Epoch graph
-
-•	Accuracy vs. Epoch graph
+•	Predicted results
 
 
 **Web Deployment**
@@ -133,9 +131,12 @@ Deployment (Web)
 
 •	ONNX Runtime Web Docs
 
+•	Google Colab
+
+•	MDN Web Docs
+
 
 **Contact**
 
 Jeevana Shruti
-•	Google Colab
-•	MDN Web Docs
+
